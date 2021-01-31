@@ -38,14 +38,14 @@ Clone repository and got to project's root directory afterwards follow steps:
 ├── config.py               # includes configurations for DB                                        
 ├── src
 │    └──audio-file
-│    │    └── api.py              # REST api definition
-│    │    └── audio.py            # Core functions
+│    │    └── api.py                # REST api definition
+│    │    └── audio.py              # Core functions
 │    │exceptions
-│    │    └── app_exception.py    # Execptions are written over here
-│    └──models.py                 # SQLAlchemy models
-│    └──serializer.py             # Serializing the input and output data
+│    │    └── app_exception.py      # Execptions are written over here
+│    └──models.py                   # SQLAlchemy models
+│    └──serializer.py               # Serializing the input and output data
 ├── test
-     └── postman                 # Includes Postman tests
+     └── postman                    # Includes Postman tests
 ```
 <br />
 
