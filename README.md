@@ -1,9 +1,10 @@
 # Audio File Server to save audio based on the type 
-# FILED PROGRAMMING EXERCISE
+### FILED PROGRAMMING EXERCISE
 
 ## Requirements
 
 This Project is developed using **Flask** and **SQLAlchemy**.
+<br />
 
 ## How to run project locally
 
@@ -26,6 +27,7 @@ Clone repository and got to project's root directory afterwards follow steps:
 4. Run app <br />
 `python app.py`
    
+<br />
 
 ## Structure
 
@@ -45,6 +47,8 @@ Clone repository and got to project's root directory afterwards follow steps:
 ├── test
      └── postman                 # Includes Postman tests
 ```
+<br />
+
 ## GET ──>  /api/v1/audio-files/<audio_type>
 
 Shows the list of all the audios in that audio_type from the local database.
